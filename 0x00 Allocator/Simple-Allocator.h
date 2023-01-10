@@ -11,7 +11,7 @@
 
 
 #ifndef _l3vi4th4n_SIMPLE_ALLOCATOR_H
-#define _l3vi4th4n _SIMPLE_ALLOCATOR_H
+#define _l3vi4th4n_SIMPLE_ALLOCATOR_H
 
 #include "ALL_CONFIG.h"
 #include <new>
