@@ -294,7 +294,7 @@ public:
 
     void swap(list<_Tp, _Alloc>& __x) 
     {
-        sakura_stl::swap(_M_node, __x._M_node);
+        mystl::swap(_M_node, __x._M_node);
     }
 
     iterator insert(iterator __position, const _Tp& __x)
