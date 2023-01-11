@@ -269,5 +269,6 @@ lexicographical_compare(const unsigned char *__first1,
     const int __result = memcmp(__first1, __first2, min(__len1, __len2));
     return __result != 0 ? __result < 0 : __len1 < __len2;
 }
+
 __STL_END_NAMESPACE
 #endif
