@@ -86,6 +86,7 @@ public:
     }
 };
 
+typedef MALLOC_ALLOC alloc;
 __STL_END_NAMESPACE
 
 #endif
