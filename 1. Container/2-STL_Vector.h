@@ -330,9 +330,9 @@ public:
 	{
 		if (this != &__x)
 		{
-			sakura_stl::swap(_M_start, __x._M_start);
-			sakura_stl::swap(_M_finish, __x._M_finish);
-			sakura_stl::swap(_M_end_of_storage, __x._M_end_of_storage);
+			mystl::swap(_M_start, __x._M_start);
+			mystl::swap(_M_finish, __x._M_finish);
+			mystl::swap(_M_end_of_storage, __x._M_end_of_storage);
 		}
 	}
 
